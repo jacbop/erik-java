@@ -1,8 +1,8 @@
-
-public abstract class Animal
+public interface Animal
 {
-    public abstract String name();
-    public abstract String look();
-    public abstract String sound();
-    public abstract String kind();
+    public String name();
+    public String look();
+    public String sound();
+    public AnimalType kind();
 }
+

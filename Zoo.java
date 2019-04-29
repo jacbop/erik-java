@@ -19,8 +19,9 @@ public class Zoo
         Dog max = new Dog("max", "black and tan dobermann with sharp teeth", "woof! woof!");
         Lion leo = new Lion("leo", "proud lion who displays you his beautiful amber colored mane", "ROARR!!!");
         Lion leona = new Lion("leona", "female lion who is sleeping on a large jagged rock", "Grrrrr!");
-        this.animals = new Animal[] {alex, lucy, max, leona, leo};
-
+        Monkey mike = new Monkey("mike", "gibbon who swings from vines dangling from his enclosure", "Oooh! Oooh!");
+        Monkey michelle = new Monkey("michelle", "capuchin who is picking flies from her fur and eating them", "Ahh! Ahh!");
+        this.animals = new Animal[] {alex, lucy, max, leona, leo, mike, michelle};
     }
 
     /**

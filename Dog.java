@@ -1,5 +1,5 @@
 
-public class Dog extends Animal
+public class Dog implements Animal
 {
     String dogName;
     String dogLook;
@@ -19,7 +19,7 @@ public class Dog extends Animal
     public String name() {
         return dogName;
     }
-    public String kind() {
-        return "dog";
+    public AnimalType kind() {
+        return AnimalType.DOG;
     }
 }

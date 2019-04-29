@@ -1,5 +1,5 @@
 
-public class Lion extends Animal
+public class Lion implements Animal
 {
     String lionName;
     String lionLook;
@@ -19,8 +19,8 @@ public class Lion extends Animal
     public String name() {
         return lionName;
     }
-    public String kind() {
-        return "lion";
+    public AnimalType kind() {
+        return AnimalType.LION;
     }
     
 }
