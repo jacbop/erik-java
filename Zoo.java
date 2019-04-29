@@ -14,6 +14,10 @@ public class Zoo
      */
     public Zoo()
     {
+        ZooStorage zooStorage = new ZooStorage();
+        //zooStorage.save("Sally"); 
+        String data = zooStorage.load();
+        System.out.println(data);
         Dog alex = new Dog("alex", "german pointer speckled with brown spots", "ruff! ruff!");
         Dog lucy = new Dog("lucy", "poodle with curly white fur and a pink collar", "arff! arff!");
         Dog max = new Dog("max", "black and tan dobermann with sharp teeth", "woof! woof!");
